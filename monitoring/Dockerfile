@@ -4,7 +4,7 @@ MAINTAINER Komi AHOLU <komi.aholu@yahoo.fr>
 
 VOLUME /tmp
 
-ADD target/monitoring*.war app.jar
+ADD target/monitoring*.jar app.jar
 
 RUN bash -c 'touch /app.jar'
 
